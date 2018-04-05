@@ -58,7 +58,7 @@ class MenuItem(Base):
         }
 
 
-engine = create_engine('sqlite:///restaurantmenuwithusers.db')
+engine = create_engine('postgres://ondzpjdbxjtruy:10bfc50e6797908ac56af05a4e4292f90890f9045ac63364771e0db03afc2202@ec2-54-204-21-226.compute-1.amazonaws.com:5432/da0jqhqga684mr')
 
 
 Base.metadata.create_all(engine)
