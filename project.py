@@ -27,7 +27,7 @@ engine = create_engine('postgres://ondzpjdbxjtruy:10bfc50e6797908ac56af05a4e4292
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
-session = DBSession
+session = DBSession()
 
 # Create a login function to check if a user is logged in or anothe
 
